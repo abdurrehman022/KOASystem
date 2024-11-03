@@ -30,8 +30,8 @@ The model achieves an accuracy of **95%** on the validation dataset, showcasing 
 
 1. **Clone the repository**:
    ```bash
-   git clone https://github.com/your-username/knee-osteoarthritis-kl.git
-   cd knee-osteoarthritis-kl
+   git clone https://github.com/abdurrehman022/KOASystem.git
+   cd KOASystem
    ```
 
 2. **Install dependencies**:
@@ -57,12 +57,12 @@ Train the model using the Jupyter notebook provided:
 - **Batch Size**: 32
 - **Image Size**: 224x224
 - **Epochs**: 25 (default)
-*Modify these parameters in the notebook or `train.py` script as needed.*
+*Modify these parameters in the notebook as needed.*
 
 Training was conducted on a **T4 GPU** on Kaggle. Users can also run it on any system with GPU support for TensorFlow.
 
 ### 2. Inference
-Use `inference.py` for testing a single image:
+Use `inference.ipynb` for testing a single image:
 
 ```python
 # Inference example
