@@ -144,4 +144,6 @@ The API will soon be deployed live and integrated into a **Flutter app** for mob
 
 --- 
 
-Let me know if this works, or if there are any additional tweaks needed!
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
