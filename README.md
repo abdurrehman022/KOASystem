@@ -26,8 +26,6 @@ The dataset consists of X-ray images sourced from [OAI](https://nda.nih.gov/oai)
 ### Key Results
 The model achieves an accuracy of **95%** on the validation dataset, showcasing its reliability in distinguishing knee osteoarthritis severity levels. Detailed metrics, including accuracy, F1-score, and confusion matrix, are available below.
 
----
-
 ## Installation
 
 1. **Clone the repository**:
@@ -47,8 +45,6 @@ The model achieves an accuracy of **95%** on the validation dataset, showcasing 
 
 4. **Download the Pre-trained Model**:
    Add your trained model (`kneeosteoarthritis_957.28.h5`) in the `models/` directory.
-
----
 
 ## Usage
 
@@ -88,30 +84,22 @@ The model achieves an impressive accuracy of **95%** on the validation set. Key 
 
 Here's the updated **Evaluations and Results** section with separate headings:
 
----
-
 ### Evaluations and Results
 
 #### Confusion Matrix
 The confusion matrix below illustrates the model's performance across the three classes (Healthy, Moderate, Severe). This visualization helps identify areas where the model performs well and where it may require further tuning.
 
-- ![Confusion Matrix](assets/confusion_matrix.png)
+![Confusion Matrix](assets/__results___29_1.png)
 
 #### Loss and Accuracy Graph
 The graph displays the training and validation loss and accuracy over epochs, indicating the model's learning progression and generalization capability. It highlights how well the model fits the data and whether any overfitting or underfitting is present.
 
-- ![Loss and Accuracy Graph](assets/loss_accuracy_graph.png)
+![Loss and Accuracy Graph](assets/__results___27_0.png)
 
 #### Sample Prediction Output
 This example prediction showcases the model's classification abilities, providing the predicted class and confidence score for a sample knee X-ray image.
 
-- ![Example Prediction](assets/sample_prediction.png)
-
----
-
-This breakdown adds clarity to each result component. Let me know if there are any other adjustments you'd like!
-
----
+![Example Prediction](assets/__results___40_0.png)
 
 ## Flask API
 
@@ -135,14 +123,10 @@ print(response.json())
 ```
 
 ### API Repository
-Find the complete API code and deployment instructions in the [Flask API Repository](https://github.com/your-username/knee-osteoarthritis-kl-api).
-
----
+Find the complete API code and deployment instructions in the [Flask API Repository](https://github.com/abdurrehman022/KOASystemAPI).
 
 ## Future Work
 The API will soon be deployed live and integrated into a **Flutter app** for mobile accessibility, which is currently under development. This app will enable on-the-go access to knee osteoarthritis severity classification directly from X-ray images.
-
---- 
 
 ## License
 
