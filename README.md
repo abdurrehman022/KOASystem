@@ -10,6 +10,27 @@ Our model automates KL grading by analyzing X-ray images to classify knees into 
 - **Moderate**: Noticeable joint space narrowing and cartilage damage.
 - **Severe**: Advanced damage with significant cartilage loss and possible joint deformity.
 
+### Screenshots
+View the application interface and results:
+
+<div align="center">
+  <img src="./screenshots/screenshot-1.png" width="15%" />
+  <img src="./screenshots/screenshot-2.png" width="15%" />
+  <img src="./screenshots/screenshot-3.png" width="15%" />
+  <img src="./screenshots/screenshot-4.png" width="15%" />
+  <img src="./screenshots/screenshot-5.png" width="15%" />
+  <img src="./screenshots/screenshot-6.png" width="15%" />
+</div>
+
+<div align="center">
+  <img src="./screenshots/screenshot-7.png" width="15%" />
+  <img src="./screenshots/screenshot-8.png" width="15%" />
+  <img src="./screenshots/screenshot-9.png" width="15%" />
+  <img src="./screenshots/screenshot-10.png" width="15%" />
+  <img src="./screenshots/screenshot-11.png" width="15%" />
+  <img src="./screenshots/screenshot-12.png" width="15%" />
+</div>
+
 ### Model Architecture
 This model uses **EfficientNetB5** as the backbone architecture due to its efficiency and proven success in medical imaging tasks. EfficientNetB5 optimizes performance and accuracy while managing computational complexity, making it ideal for high-resolution X-ray images.
 
@@ -122,11 +143,16 @@ response = requests.post(url, files=files)
 print(response.json())
 ```
 
-### API Repository
-Find the complete API code and deployment instructions in the [Flask API Repository](https://github.com/abdurrehman022/KOASystemAPI).
+### Linked Repositories
+- **[Flask API Repository](https://github.com/abdurrehman022/KOASystemAPI)**: Backend API implementation for the KOA Classification System
+- **[Flutter App Repository](https://github.com/sohaibkhan209/KOASystemFlutter)**: Mobile application for the KOA Classification System
 
 ## Future Work
-The API will soon be deployed live and integrated into a **Flutter app** for mobile accessibility, which is currently under development. This app will enable on-the-go access to knee osteoarthritis severity classification directly from X-ray images.
+Our future development plans focus on expanding the system's capabilities:
+
+1. **Local Dataset Integration**: Working with local healthcare providers to collect and analyze region-specific knee osteoarthritis datasets to improve model accuracy for local populations.
+
+2. **Extended Disease Coverage**: Expanding the system's capabilities to classify other musculoskeletal conditions and diseases, leveraging the experience and architecture developed for knee osteoarthritis classification.
 
 ## License
 
