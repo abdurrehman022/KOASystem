@@ -143,7 +143,7 @@ response = requests.post(url, files=files)
 print(response.json())
 ```
 
-### Linked Repositories
+## Linked Repositories
 - **[Flask API Repository](https://github.com/abdurrehman022/KOASystemAPI)**: Backend API implementation for the KOA Classification System
 - **[Flutter App Repository](https://github.com/sohaibkhan209/KOASystemFlutter)**: Mobile application for the KOA Classification System
 
