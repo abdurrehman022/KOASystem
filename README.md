@@ -6,34 +6,13 @@ This project leverages deep learning to classify knee osteoarthritis severity us
 - **[Flask API Repository](https://github.com/abdurrehman022/KOASystemAPI)**: Backend API implementation for the KOA Classification System
 - **[Flutter App Repository](https://github.com/sohaibkhan209/KOASystemFlutter)**: Mobile application for the KOA Classification System
 
-### Project Overview
+## Project Overview
 Knee osteoarthritis is a common, degenerative condition affecting the knee joint's articular cartilage. The breakdown of cartilage leads to joint friction, impact on bones, and inflammation of surrounding tissues, causing pain and restricting movement. The Kellgren-Lawrence (KL) grading system is widely used for evaluating osteoarthritis severity, ranging from Grade 0 (Healthy) to Grade 4 (Severe). This classification aids in determining treatment plans, predicting disease progression, and assessing clinical outcomes. 
 
 Our model automates KL grading by analyzing X-ray images to classify knees into three primary categories:
 - **Healthy**: No signs of osteoarthritis.
 - **Moderate**: Noticeable joint space narrowing and cartilage damage.
 - **Severe**: Advanced damage with significant cartilage loss and possible joint deformity.
-
-### Application Interface
-View the application interface and results:
-
-<div align="center">
-  <img src="./screenshots/screenshot-1.png" width="15%" />
-  <img src="./screenshots/screenshot-2.png" width="15%" />
-  <img src="./screenshots/screenshot-3.png" width="15%" />
-  <img src="./screenshots/screenshot-4.png" width="15%" />
-  <img src="./screenshots/screenshot-5.png" width="15%" />
-  <img src="./screenshots/screenshot-6.png" width="15%" />
-</div>
-
-<div align="center">
-  <img src="./screenshots/screenshot-7.png" width="15%" />
-  <img src="./screenshots/screenshot-8.png" width="15%" />
-  <img src="./screenshots/screenshot-9.png" width="15%" />
-  <img src="./screenshots/screenshot-10.png" width="15%" />
-  <img src="./screenshots/screenshot-11.png" width="15%" />
-  <img src="./screenshots/screenshot-12.png" width="15%" />
-</div>
 
 ### Model Architecture
 This model uses **EfficientNetB5** as the backbone architecture due to its efficiency and proven success in medical imaging tasks. EfficientNetB5 optimizes performance and accuracy while managing computational complexity, making it ideal for high-resolution X-ray images.
@@ -106,10 +85,6 @@ print(f"Prediction: {prediction} with {confidence:.2f}% confidence")
 
 ### 3. Evaluation and Results
 The model achieves an impressive accuracy of **95%** on the validation set. Key evaluation metrics, including accuracy, F1-score, precision, recall, and confusion matrix, can be found below. Plots showing the loss and accuracy over epochs, along with sample predictions, are also included.
-
-Here's the updated **Evaluations and Results** section with separate headings:
-
-### Evaluations and Results
 
 #### Confusion Matrix
 The confusion matrix below illustrates the model's performance across the three classes (Healthy, Moderate, Severe). This visualization helps identify areas where the model performs well and where it may require further tuning.
