@@ -2,6 +2,10 @@
 
 This project leverages deep learning to classify knee osteoarthritis severity using the Kellgren-Lawrence (KL) grading system, based on X-ray images. The classification is simplified to three classes (Healthy, Moderate, Severe) to streamline predictions and reduce complexity, focusing on practical clinical application.
 
+## Linked Repositories
+- **[Flask API Repository](https://github.com/abdurrehman022/KOASystemAPI)**: Backend API implementation for the KOA Classification System
+- **[Flutter App Repository](https://github.com/sohaibkhan209/KOASystemFlutter)**: Mobile application for the KOA Classification System
+
 ### Project Overview
 Knee osteoarthritis is a common, degenerative condition affecting the knee joint's articular cartilage. The breakdown of cartilage leads to joint friction, impact on bones, and inflammation of surrounding tissues, causing pain and restricting movement. The Kellgren-Lawrence (KL) grading system is widely used for evaluating osteoarthritis severity, ranging from Grade 0 (Healthy) to Grade 4 (Severe). This classification aids in determining treatment plans, predicting disease progression, and assessing clinical outcomes. 
 
@@ -10,7 +14,7 @@ Our model automates KL grading by analyzing X-ray images to classify knees into 
 - **Moderate**: Noticeable joint space narrowing and cartilage damage.
 - **Severe**: Advanced damage with significant cartilage loss and possible joint deformity.
 
-### Screenshots
+### Application Interface
 View the application interface and results:
 
 <div align="center">
@@ -142,10 +146,6 @@ files = {'file': open(image_path, 'rb')}
 response = requests.post(url, files=files)
 print(response.json())
 ```
-
-## Linked Repositories
-- **[Flask API Repository](https://github.com/abdurrehman022/KOASystemAPI)**: Backend API implementation for the KOA Classification System
-- **[Flutter App Repository](https://github.com/sohaibkhan209/KOASystemFlutter)**: Mobile application for the KOA Classification System
 
 ## Future Work
 Our future development plans focus on expanding the system's capabilities:
